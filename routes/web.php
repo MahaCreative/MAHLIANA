@@ -26,7 +26,7 @@ use PhpMqtt\Client\Facades\MQTT;
 |
 */
 
-Route::get('', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('data-kelas', [DataKelasController::class, 'index'])->name('data-kelas');
 Route::post('data-kelas', [DataKelasController::class, 'store']);
 Route::delete('data-kelas', [DataKelasController::class, 'delete']);
@@ -52,7 +52,7 @@ Route::post('kirim-absem', [ProsesAbsensiController::class, 'kirim_absen'])->nam
 
 Route::get('data-absensi', [DataAbsenController::class, 'index'])->name('data-absen-siswa');
 
-Route::get('login', [LoginController::class, 'index'])->name('login');
+Route::get('', [LoginController::class, 'index'])->name('login');
 Route::post('login', [LoginController::class, 'store']);
 
 Route::get('response-tidak-ada-wajah', function () {
