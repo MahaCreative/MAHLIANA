@@ -27,9 +27,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             DataKelasSeeder::class,
         ]);
-        DataMapel::factory(10)->create();
-        DataSiswa::factory(70)->create();
-        DataJadwal::factory(30)->create();
-        AbsensiMasuk::factory(100)->create();
+        // DataMapel::factory(10)->create();
+        // DataSiswa::factory(70)->create();
+        // DataJadwal::factory(30)->create();
+        // AbsensiMasuk::factory(100)->create();
     }
 }

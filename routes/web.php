@@ -53,7 +53,7 @@ Route::post('kirim-absem', [ProsesAbsensiController::class, 'kirim_absen'])->nam
 Route::get('data-absensi', [DataAbsenController::class, 'index'])->name('data-absen-siswa');
 
 Route::get('', [LoginController::class, 'index'])->name('login');
-Route::post('login', [LoginController::class, 'store']);
+Route::post('', [LoginController::class, 'store']);
 
 Route::get('response-tidak-ada-wajah', function () {
     $response = [
