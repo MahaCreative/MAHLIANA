@@ -26,10 +26,7 @@ function Account() {
         >
             <div className="flex flex-col tracking-tight leading-3 text-right">
                 <p className="capitalize text-[8pt] md:text-[10pt] lg:text-sm font-semibold text-slate-950 dark:text-white">
-                    Guntur Madjid
-                </p>
-                <p className="text-slate-950 dark:text-white text-[8pt] md:text-[10pt lg:text-sm">
-                    Admin
+                    USER
                 </p>
             </div>
             <div className=" flex gap-x-4 items-center hover:cursor-pointer">
@@ -40,12 +37,12 @@ function Account() {
                     open ? " py-2 w-[180px] opacity-100" : "opacity-0 h-0 w-0"
                 } absolute right-0 top-12  rounded-md bg-slate-200 dark:bg-slate-900 overflow-y-hidden usetransition border border-slate-500/50 z-50`}
             >
-                <Menu
+                {/* <Menu
                     icon={
                         <ManageAccounts children="inherit" fontSize="inherit" />
                     }
                     name={"Setting Profile"}
-                />
+                /> */}
                 <Menu
                     icon={<Logout children="inherit" fontSize="inherit" />}
                     name={"Logout"}

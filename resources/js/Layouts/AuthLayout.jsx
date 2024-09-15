@@ -20,7 +20,7 @@ export default function AuthLayout({ children, title }) {
                     <div className="flex gap-x-2 items-center">
                         <img src="/favicon.ico" alt="" className="h-10 w-10" />
                         <h1 className="font-bold dark:text-white text-slate-950">
-                            MAHACREATIVE
+                            SMK JUAN PATTAROPURA
                         </h1>
                     </div>
                     <button
