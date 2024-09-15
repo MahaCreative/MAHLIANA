@@ -58,8 +58,8 @@ export default function SidebarDesktop({ open, setOpen, triggerRef }) {
                         alt=""
                         className="w-[45px] h-[45px] object-cover rounded-full"
                     />
-                    <h1 className="font-semibold text-xl text-slate-950 dark:text-white">
-                        MUDICOM
+                    <h1 className="font-semibold text-sm md:text-lg lg:text-xl text-slate-950 dark:text-white">
+                        SMK JUAN
                     </h1>
                 </div>
                 <button
